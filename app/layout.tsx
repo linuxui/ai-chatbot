@@ -81,6 +81,7 @@ export default function RootLayout({
           <Toaster position="top-center" />
           <SessionProvider>{children}</SessionProvider>
         </ThemeProvider>
+      <html lang="es">
       </body>
     </html>
   );
